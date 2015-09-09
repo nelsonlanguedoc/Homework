@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>w2d1 Homework</title>
+</head>
+<body>
+<form method="GET" action="/checkout">
+  <fieldset>
+  <label for="search"><span class="shortcut">S</span>earch</label>
+  <br>
+<input type="text" name="s" id="search" accesskey="s" />
+<br>
+
+    <legend>Billing Address</legend>
+    <label for="billaddress">Address</label>
+    <br>
+    <input type="text" tabindex="1">
+    <br>
+    <label for="billcity">City</label>
+    <br>
+    <input type="text" tabindex="2">
+    <br>
+      <select>
+<optgroup label="USA">
+    <option>Alabama</option>
+    <option>Alaska</option>
+    <option>Arizona</option>
+</optgroup>
+<optgroup label="Canada">
+    <option>Alberta</option>
+    <option>British Columbia</option>
+    <option>Manitoba</option>
+</optgroup>
+</select>
+    <label for="billprovince">Province/State</label>
+    <br>
+    <input type="text" tabindex="3">
+    <br>
+    <label for="billpostalcode">Postal Code</label>
+    <br>
+    <input type="text" tabindex="4">
+    <br>
+  </fieldset>
+  <fieldset>
+    <legend>Shipping Address</legend>
+    <label for="shipaddress">Address</label>
+    <br>
+    <input type="text" tabindex="1">
+    <br>
+    <label for="shipcity">City</label>
+    <br>
+    <input type="text" tabindex="2">
+    <br>
+      <select>
+<optgroup label="USA">
+    <option>Alabama</option>
+    <option>Alaska</option>
+    <option>Arizona</option>
+</optgroup>
+<optgroup label="Canada">
+    <option>Alberta</option>
+    <option>British Columbia</option>
+    <option>Manitoba</option>
+</optgroup>
+</select>
+    <label for="shipprovince">Province/State</label>
+    <br>
+    <input type="text" tabindex="3">
+    <br>
+    <label for="shippostalcode">Postal Code</label>
+    <br>
+    <input type="text" tabindex="4">
+    <br>
+    <form action="verify.php" method="get" enctype="multipart/form-data"
+    label for="avatar">Upload your Avatar : </label>
+    <input type="file" name="avatar" id="avatar" />
+</form>
+  </fieldset>
+  
+</body>
+</html>
